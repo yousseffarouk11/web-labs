@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+body{
+    background-color: black;
+}
+
+.a{
+
+    border: 1px solid rgb(253, 245, 245);
+    display: inline-block;
+    padding: 20px;
+border-radius: 5%;
+width: 200px;
+height: 200px;
+}
+h1{
+    color:white;
+}
+.emo1{
+font-size: xx-large;
+position: fixed;
+bottom:400px ;
+animation-name: girlmovment;
+top: 200px;
+left: 10px;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+
+}
+.emo2{
+font-size: xx-large;
+position: fixed;
+left: 100px;
+top: 200px;
+animation-name: boymovment;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+.emo3{
+
+font-size: xx-large;
+position: fixed;
+bottom:400px ;
+left: 140px;
+top: 200px;
+animation-name: arm;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes girlmovment{
+from{left: 10px;
+    font-size: small;
+   
+
+
+}
+to{left: 50px;
+    font-size: xx-large;
+
+
+}
+}
+@keyframes arm {
+    from{
+        rotate: -50deg;
+    }
+    to{
+        rotate: 50deg;
+ 
+
+    }
+}
+@keyframes boymovment {
+
+ from{
+top: 230px;
+font-size: medium;
+ }
+to{
+   top: 150px;
+   transform: scale(1.5);
+}
+
+
+}
+
+
+</style>
+
+<body>
+<div class="a"></div>
+<div class="bk"></div>
+<span class="emo1">💃🏻</span>
+<div class="emo2">🕺🏻</div>
+<div class="emo3">💪</div>
+
+
+    
+</body>
+</html>

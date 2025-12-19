@@ -1,0 +1,35 @@
+body{
+    font-family: Arial;
+    background: #e8f0ff; /* خلفية مختلفة */
+}
+
+.dark{
+    background: #1a1a1a; /* دارك جديد */
+    color: #f5f5f5;
+}
+
+.box{
+    width: 520px; /* شوية أكبر */
+    padding: 12px; /* أكبر شوية */
+    margin: auto;
+    margin-top: 25px; /* أعلى شوية */
+    background: #ffffff;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2); /* تعديل الظل */
+    border-radius: 10px; /* أكبر */
+}
+
+input, textarea, select{
+    width: 100%;
+    margin-bottom: 12px; /* أكبر شوية */
+    padding: 6px; /* أكبر شوية */
+}
+
+.task{
+    border-bottom: 1px solid #bbb; /* لون مختلف */
+    padding: 10px 0; /* أكبر شوية */
+    margin-top: 12px; /* أكبر شوية */
+}
+
+button{
+    margin-right: 8px; /* أكبر شوية */
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Task Manager</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>My Task Manager</h2>
+
+        <label for="taskTitle">Task Title</label>
+        <input type="text" id="taskTitle">
+
+        <label for="taskDesc">Task Description</label>
+        <textarea id="taskDesc"></textarea>
+
+        <label for="taskPrio">Task Priority</label>
+        <select id="taskPrio">
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+        </select>
+
+        <button onclick="addTask()">Create Task</button>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+
+        <div style="margin:15px 0;"></div>
+
+        <label for="taskFilter">Filter Tasks</label>
+        <select id="taskFilter" onchange="showTasks()">
+            <option value="all">All</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+
+        <div id="tasks"></div>
+    </div>
+
+<script src="java.js"></script>
+
+</body>
+</html>
